@@ -1,0 +1,108 @@
+-> header-wrapper
+    -> container
+        ->masthead
+            -> masthead-logo
+            ->nav
+                ->nav-item
+                ->nav-link 
+    -> counter
+        -> counter-days
+        -> counter-value_separator
+        -> counter-hours
+        -> counter-value_separator
+        -> counter-minutes
+        -> counter-value_separator
+        -> counter-seconds 
+-> welcome_wrapper
+    -> container section welcome
+        -> section-welcome
+            -> welcome_title
+            -> welcome_text
+    -> register_form
+        -> form-title
+        -> form-input
+        -> form-submit-button
+        -> form-discription
+-> advantage_wrapper
+    -> container section advantage
+        -> advantage-item
+            -> advantage-img
+            -> advantage-title
+            -> advantage-text
+-> schedule-wrapper
+    ->container section schedule
+        -> schedule-form
+            -> schedule-header
+                -> schedule-time
+                -> schedule-event
+            -> schedule-event
+                -> event-time
+                -> event-discription
+                -> event-button
+        -> schedule-discription
+-> rewards-wrapper
+    -> container section rewards
+        -> rewards-logo
+        -> rewards-article
+            -> article-title
+            -> article-text
+            -> article-button
+-> speakers-wrapper
+    -> container section speakers
+        -> speakers-header
+            -> speakers-title
+            -> speakers-discription
+        -> speakers-members
+            -> members-item
+                -> members-card
+                    -> members-name
+                    -> members-theme
+                    -> social-items
+                        -> social-icon
+                -> speakers-img
+-> sponsor-wrapper
+    -> container section sponsor
+        -> sponsor-hero
+            -> sponsor-title
+            -> sponsor-discription
+            -> sponsor-logos
+                -> sponsor-logo
+            -> sponsor-button
+-> past_events-wrapper
+    -> container section past_events
+        -> past_events-header
+            -> past_events-title
+            -> past_events-discription
+        -> past_events-imgs
+            -> event-img
+        -> past_events-button
+-> contacts-wrapper
+    -> container section contacts
+        -> section-contacts
+            -> section-adress
+                -> adress-img
+                -> adress
+                -> adress_veiw-button
+            -> message-form
+                -> input_mail-message
+                -> input_text-message
+                -> message_form-button
+-> footer-wrapper
+    -> container section footer
+        -> event-social-item
+            -> event-social-icon
+        -> event-rights
+    -> up-button
+
+
+
+
+
+
+
+
+
+
+
+
+
