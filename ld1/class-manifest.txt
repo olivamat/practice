@@ -1,18 +1,4 @@
--> header-wrapper
-    -> container
-        ->masthead
-            -> masthead-logo
-            ->nav
-                ->nav-item
-                ->nav-link 
-    -> counter
-        -> counter-days
-        -> counter-value_separator
-        -> counter-hours
-        -> counter-value_separator
-        -> counter-minutes
-        -> counter-value_separator
-        -> counter-seconds 
+
 -> welcome_wrapper
     -> container section welcome
         -> section-welcome
