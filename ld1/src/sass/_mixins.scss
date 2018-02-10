@@ -1,0 +1,39 @@
+@mixin ul-nav {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@mixin input-style {
+  border: 1px solid $border-light-grey;
+  border-radius: 5px;
+
+  font-weight: 100;
+  color: $light-grey;
+  outline: none;
+  padding-left: 10px;
+
+  &:focus {
+    border: 1px solid $apple-green;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $border-light-grey;
+  }
+  &:-ms-input-placeholder {
+    color: $border-light-grey;
+  }
+  &::-ms-input-placeholder {
+    color: $border-light-grey;
+  }
+  &::placeholder {
+    color: $border-light-grey;
+  }
+}

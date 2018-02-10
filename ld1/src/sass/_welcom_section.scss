@@ -1,0 +1,66 @@
+.welcome {
+  display: flex;
+  justify-content: space-around;
+}
+
+.welcome_title {
+  font-size: 50px;
+  margin: 0;
+  color: $dark-grey;
+}
+
+.welcome_text {
+  font-weight: 300;
+  font-size: 14px;
+  color: $light-grey;
+}
+
+// __________________________________________form
+
+.section-register {
+  position: relative;
+}
+
+.register_form {
+  position: absolute;
+  top: -279px;
+  left: -28px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 25px 20px 25px;
+  align-items: center;
+}
+
+.form-title {
+  margin: 0 0 17px 0;
+  font-size: 30px;
+  color: $dark-grey;
+}
+
+.form-input {
+  height: 55px;
+  width: 370px;
+  margin-bottom: 16px;
+  @include input-style;
+}
+
+.form-submit-button {
+  background-color: $apple-green;
+  border: none;
+  height: 55px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  width: 370px;
+}
+
+.form-discription {
+  width: 205px;
+  font-weight: 300;
+  color: #6c6c6c;
+  font-size: 15px;
+}

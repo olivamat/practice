@@ -1,14 +1,5 @@
 
--> welcome_wrapper
-    -> container section welcome
-        -> section-welcome
-            -> welcome_title
-            -> welcome_text
-    -> register_form
-        -> form-title
-        -> form-input
-        -> form-submit-button
-        -> form-discription
+
 -> advantage_wrapper
     -> container section advantage
         -> advantage-item
