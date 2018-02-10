@@ -1,11 +1,6 @@
 
 
--> advantage_wrapper
-    -> container section advantage
-        -> advantage-item
-            -> advantage-img
-            -> advantage-title
-            -> advantage-text
+
 -> schedule-wrapper
     ->container section schedule
         -> schedule-form

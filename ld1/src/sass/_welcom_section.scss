@@ -1,6 +1,7 @@
 .welcome {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 90px;
 }
 
 .welcome_title {
@@ -23,8 +24,8 @@
 
 .register_form {
   position: absolute;
-  top: -279px;
-  left: -28px;
+  top: -270px;
+  left: 40px;
   background-color: #fff;
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);

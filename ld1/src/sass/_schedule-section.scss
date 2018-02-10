@@ -1,0 +1,31 @@
+.schedule {
+  display: flex;
+  justify-content: center;
+}
+
+.schedule-table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.schedule-header {
+  background-color: $apple-green;
+  color: white;
+  height: 75px;
+  font-size: 30px;
+  
+}
+
+.schedule-time {
+  border-radius: 10px 0px 0px 0px;
+  -moz-border-radius: 10px 0px 0px 0px;
+  -webkit-border-radius: 10px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.schedule-event-title {
+    border-radius: 0px 10px 0px 0px;
+    -moz-border-radius: 0px 10px 0px 0px;
+    -webkit-border-radius: 0px 10px 0px 0px;
+    font-weight: 500;
+}
