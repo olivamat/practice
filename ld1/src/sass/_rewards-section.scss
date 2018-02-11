@@ -1,0 +1,43 @@
+.rewards-wrapper {
+  background-color: $light-grey;
+}
+
+.rewards {
+  padding: 40px 0 150px 0;
+}
+
+.rewards-article {
+  color: white;
+  text-align: right;
+}
+
+.article-title {
+  font-size: 50px;
+  margin: 0;
+}
+
+.article-text {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.article-button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: $apple-green;
+  height: 55px;
+  width: 200px;
+  line-height: 55px;
+  font-weight: 100;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.rewards-logo {
+  position: relative;
+  top: -230px;
+  display: block;
+}
