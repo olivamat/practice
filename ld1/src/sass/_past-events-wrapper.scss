@@ -1,0 +1,58 @@
+.past_events {
+    padding: 100px 0 95px 0;
+}
+
+.past_events-header {
+    margin: 0 0 100px 90px;
+}
+
+.past_events-title {
+  font-size: 50px;
+  margin: 0 0 30px 0;
+}
+
+.past_events-discription {
+  font-weight: 300;
+}
+
+.past_events-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-img {
+  height: 416px;
+}
+
+.event-img-1 {
+  background-color: blue;
+  width: 50%;
+}
+
+.event-img-2 {
+  background-color: green;
+  width: 50%;
+}
+.event-img-3 {
+  background-color: orange;
+  width: 40%;
+}
+.event-img-4 {
+  background-color: red;
+  width: 60%;
+}
+
+.past_events-button {
+    color: #fff;
+    background-color: $dark-grey;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 50px auto 0 auto;
+}
+
+

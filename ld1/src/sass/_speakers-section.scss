@@ -4,6 +4,77 @@
 
 .speakers-content {
   background-color: #fff;
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  padding: 265px 0 180px 0;
+  -webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
 }
+.speakers-header {
+  margin-left: 100px;
+}
+
+
+.speakers-title {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.speakers-discription {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.speakers-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.members-item {
+  height: 296px;
+  width: 296px;
+  background-color: $apple-green;
+  margin-top: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:nth-child(5) {
+    background-color: white;
+  }
+}
+
+.speakers-img {
+  display: block;
+}
+
+.members-card {
+  background-image: url(../img/speaker-card-bg.png);
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  padding: 30px;
+}
+
+.members-name {
+  font-size: 45px;
+  margin: 0;
+
+  &::after {
+    content: "";
+    width: 85px;
+    border-bottom: 5px solid #fff;
+    display: block;
+  }
+}
+.members-theme {
+  font-size: 16px;
+  margin-bottom: 55px;
+  font-weight: 400;
+}
+.social-items {
+  @include ul-nav;
+}
+
+
