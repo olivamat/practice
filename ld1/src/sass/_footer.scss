@@ -1,0 +1,22 @@
+.footer-wrapper {
+  background-color: $apple-green;
+}
+
+.footer {
+  color: white;
+  margin: 0 auto;
+  padding: 60px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-social-item {
+  @include ul-nav;
+  margin-bottom: 30px;
+}
+
+.event-rights {
+    margin: 0 0 10px 0;
+    font-weight: 300;
+}
