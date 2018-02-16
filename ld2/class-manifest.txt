@@ -53,6 +53,91 @@
                         -> example-card-title
                         -> example-card-discript
             -> example-button
+-> video-section-wrapper    
+    -> container
+        -> row video-section
+            -> video-discript-section
+                -> video-play-button
+                    -> video-title
+                    -> video-discript
+                    -> video-time
+-> mobile-optimazation-wrapper
+    -> container
+        -> row mobile-optimazation
+            -> mobile-optimazation-img
+            -> mobile-optimazation-discript
+                ->mobile-optimazation-discript-title
+                -> mobile-optimazation-discript-text
+                -> mobile-optimazation-discript-list
+                    -> discript-list-item
+-> counter-section-wrapper
+    -> container
+        -> row counter-section
+            -> counter-list
+                -> counter-item
+                    -> counter-card
+                        -> counter-card-icon
+                        -> counter-card-value
+                        -> counter-card-title
+-> blog-section-wrapper
+    -> container
+        -> row blog-section
+            -> blog-header
+                -> blog-header-title
+                -> blog-header-discript
+            -> blog-post
+                -> blog-post-img
+                -> blog-post-date
+                -> blog-post-title
+                -> blog-post-text
+                -> blog-post-link
+            -> blog-footer
+                -> blog-footer-list
+                    -> blog-footer-list-item
+                        -> blog-footer-button
+-> logo-section-wrapper
+    -> container
+        -> row logo-section
+            -> logo-section-list
+                -> logo-section-list-item
+                    -> logo-img
+-> footer-links-wrapper
+    -> container
+        -> row footer-links
+            -> footer-links-company-discript
+                -> company-discript-logo
+                -> company-discript-text
+                -> company-discript-link
+            -> footer-links-recent-post
+                -> recent-post-title
+                -> recent-post-post
+                    -> recent-post-date
+                    -> recent-post-text
+            -> footer-links-twitter
+                -> twitter-post
+                -> twitter-post-date
+            -> footer-links-widget
+                -> footer-links-widget-img
+-> footer-wrapper
+    -> container
+        -> row footer
+            -> footer-rights-list
+                ->footer-rights-item
+                    -> footer-rights-link 
+            -> footer-creater-list
+                -> footer-creater-item
+                    -> footer-creater-link
+
+
+
+
+
+
+
+
+
+                         
+
 
 
 
