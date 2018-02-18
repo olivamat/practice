@@ -1,0 +1,51 @@
+@mixin ul-nav {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@mixin input-style {
+  border: 1px solid #dbdada;
+  border-radius: 5px;
+
+  font-weight: 100;
+  color: #4a454b;
+  outline: none;
+  padding-left: 10px;
+
+  &:focus {
+    border: 1px solid #90d23d;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #dbdada;
+  }
+  &:-ms-input-placeholder {
+    color: #dbdada;
+  }
+  &::-ms-input-placeholder {
+    color: #dbdada;
+  }
+  &::placeholder {
+    color: #dbdada;
+  }
+}
+
+//  position relative parent!!!
+@mixin trans-back-after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  top: 0px;
+  left: 0px;
+}
