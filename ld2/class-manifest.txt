@@ -1,20 +1,5 @@
--> masthead-wrapper
-    ->container
-        -> row masthead
-            ->masthead-header
-                ->masthead-logo
-                ->nav-items
-                    ->nav-item
-                        -> nav-link
-                -> masthead-search
-            -> banner-section
-                -> banner-title
-                -> banner-sub-title
-                -> banner-text
-                -> banner-button
-            -> masthead-footer
-                -> masthead-pagination
-                    -> pagination-item  
+
+          
 -> services-list-wrapper    
     -> container
         -> row services-list-section
