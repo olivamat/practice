@@ -1,0 +1,65 @@
+.masthead-wrapper {
+  background-color: gray;
+}
+
+.masthead-header {
+  display: flex;
+}
+
+.masthead-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  @include ul-nav;
+}
+
+.nav-item {
+  margin-right: 30px;
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.nav-link {
+  color: white;
+  font-size: 14px;
+  font-family: $semiFont;
+  font-weight: 200;
+
+  &:hover {
+    color: $semiBrown;
+  }
+}
+
+// ------------------------------------
+.menu_icon {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+
+.masthead-menu__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.masthead-search__button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+.search_icon {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}

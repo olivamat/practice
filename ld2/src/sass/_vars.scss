@@ -1,8 +1,11 @@
-// Montserrat Light
-// Raleway Regular - logo
-// Raleway Medium
-// Raleway ExtraBold
-// Raleway SemiBold
-// Raleway Medium
-// Montserrat UltraLight
-// Raleway Bold
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');
+
+$mainBrown: #998675;
+$semiBrown: #c7b299;
+$mainGray: #555555;
+$semiGray: #8c8c8c;
+$lightGray: #d1d1d1;
+
+$mainFont: 'Raleway', sans-serif;
+$semiFont: 'Montserrat', sans-serif;
