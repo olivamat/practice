@@ -1,22 +1,5 @@
 
-          
--> services-list-wrapper    
-    -> container
-        -> row services-list-section
-            -> services-list
-                ->services-list-items
-                    ->services-item
-                        -> service-card
-                            -> service-icon
-                            -> service-title
-                            -> service-text
--> promise-section-wrapper
-    -> container
-        -> row promise-section
-            -> promise-header
-                -> promise-header-title
-                -> promise-header-text
-            -> promise-img
+
 -> rate-section-wrapper
     -> container
         -> row rate-section
