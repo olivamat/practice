@@ -62,7 +62,6 @@ gulp.task('css', function () {
 // });
 
 
-
 gulp.task('js', function () {
     return browserify({entries: './src/js/script.js', extensions: ['.js'], debug: true})
         .transform('babelify', {presets: ['es2015', 'react']})
