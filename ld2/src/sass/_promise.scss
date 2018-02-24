@@ -6,11 +6,11 @@
   padding-top: 80px;
 }
 
-.promise-header {
+.header {
   margin: 0 auto 30px auto;
 }
 
-.promise-title {
+.header-title {
   font-size: 30px;
   font-family: $mainFont;
   font-weight: 500;
@@ -19,12 +19,17 @@
   text-align: center;
 }
 
-.promise-text {
+.header-text {
   font-family: $semiFont;
   font-weight: 200;
   font-size: 16px;
   text-align: center;
   color: $semiGray;
+  line-height: 25px; 
+}
+
+.promise-img {
+  width: 100%;
 }
 
 

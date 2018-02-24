@@ -1,4 +1,5 @@
 .rate-section-wrapper {
+  padding: 45px 0;
   background: #211c19; /* Old browsers */
   background: -moz-linear-gradient(
     left,
@@ -100,7 +101,25 @@
     #4e3427 100%
   );
 }
-
-
-
-  
+.rate-section {
+  padding: 0 30px;
+  justify-content: space-between;
+}
+.rate-title {
+  color: #fff;
+  font-family: $mainFont;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+}
+.rate-text {
+  color: #615855;
+  font-family: $semiFont;
+  margin: 0;
+}
+.title_start {
+  color: $semiBrown;
+}
+.rate-button {
+  @include button;
+  font-family: $mainFont;
+}

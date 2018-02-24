@@ -1,19 +1,11 @@
 
-
--> rate-section-wrapper
-    -> container
-        -> row rate-section
-            ->  rate-header
-                -> rate-title
-                -> rate-text
-            -> rate-button
 -> example-section-wrapper
     -> container
         -> row  example-section
             -> example-section-header
                 -> example-section-title
                 -> example-section-discript
-            -> example-section-nav
+            ->example-section-nav 
             -> example-list
                 -> example-item
                     -> example-card

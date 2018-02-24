@@ -1,0 +1,115 @@
+.example-section {
+  padding: 80px 0;
+}
+
+.example-section-nav_list {
+  @include ul-nav;
+  margin: 0 auto 40px auto;
+}
+
+.example-nav-item {
+  margin: 0 10px 0 0;
+}
+
+.exmple-nav-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 120px;
+  border-radius: 3px;
+  border: 1px solid #ebebeb;
+  color: $semiGray;
+  font-family: $semiFont;
+  font-weight: 300;
+  font-size: 14px;
+
+  &:hover {
+    background-color: $mainBrown;
+    color: #ffffff;
+  }
+}
+
+.example-list {
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.example-item {
+  margin: 0 0 30px 0;
+}
+
+.example-card {
+  &:hover {
+    .example-card-discript {
+      color: $semiBrown;
+    }
+
+    .example-card-title {
+      color: #ffffff;
+    }
+
+    .card-text-section {
+      background-color: #362f2d;
+    }
+
+    .example-card-icons {
+      opacity: 0.7;
+    }
+  }
+}
+
+.card-text-section {
+  background-color: #fbfaf8;
+  padding: 25px 0 25px 25px;
+}
+
+.example-card-title {
+  color: $semiBrown;
+  font-size: 20px;
+  font-family: $mainFont;
+  font-weight: 300;
+  margin: 0 0 5px 0;
+}
+
+.example-card-discript {
+  color: $lightGray;
+  font-size: 13px;
+  font-family: $semiFont;
+  font-weight: 200;
+  margin: 0;
+}
+
+.example-button {
+  @include button;
+  margin: 0 auto;
+}
+
+.example-card-img-cont {
+  position: relative;
+}
+
+.example-card-icons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+}
+
+.card-icon__button{
+
+
+}
+
+.card-icon__link{
+    fill: white;
+    width: 25px;
+    height: 25px;
+    
+}
