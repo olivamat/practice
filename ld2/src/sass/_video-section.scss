@@ -1,0 +1,45 @@
+.video-section-wrapper {
+  background: url(../img/video-img.jpg) 50%/cover no-repeat;
+  padding: 210px 0 205px 0;
+}
+
+.video-discript-section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.video-play-button {
+  width: 100px;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 40px auto;
+  padding: 0;
+}
+
+.video_butt_icon {
+  fill: white;
+  width: 70%;
+  height: 70%;
+}
+
+.video-title {
+  color: white;
+  font-weight: 400;
+}
+
+.video-discript {
+  color: white;
+}
+
+.video-time {
+  color: $semiBrown;
+  font-size: 14px;
+  font-family: $semiFont;
+}
