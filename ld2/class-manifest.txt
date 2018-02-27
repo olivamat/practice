@@ -1,21 +1,7 @@
 
--> footer-links-wrapper
-    -> container
-        -> row footer-links
-            -> footer-links-company-discript
-                -> company-discript-logo
-                -> company-discript-text
-                -> company-discript-link
-            -> footer-links-recent-post
-                -> recent-post-title
-                -> recent-post-post
-                    -> recent-post-date
-                    -> recent-post-text
-            -> footer-links-twitter
-                -> twitter-post
-                -> twitter-post-date
-            -> footer-links-widget
-                -> footer-links-widget-img
+
+
+
 -> footer-wrapper
     -> container
         -> row footer
