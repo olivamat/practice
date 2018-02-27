@@ -1,13 +1,5 @@
 
--> mobile-optimazation-wrapper
-    -> container
-        -> row mobile-optimazation
-            -> mobile-optimazation-img
-            -> mobile-optimazation-discript
-                ->mobile-optimazation-discript-title
-                -> mobile-optimazation-discript-text
-                -> mobile-optimazation-discript-list
-                    -> discript-list-item
+
 -> counter-section-wrapper
     -> container
         -> row counter-section
