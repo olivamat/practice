@@ -1,0 +1,142 @@
+.blog-section {
+  padding: 80px 0;
+}
+
+.blog-header {
+  align-self: center;
+}
+
+// botstrap-wrap-hack
+.w-100 {
+  width: 100%;
+}
+
+.blog-post-container {
+    margin-bottom: 40px;
+}
+
+.blog-post {
+  &:hover {
+    .blog-post-title {
+      color: $semiBrown;
+    }
+
+    .blog-content {
+      background-color: #362f2d;
+    }
+
+    .img-continer:after {
+      @include trans-back-after;
+    }
+
+    .blog-post-date {
+      background-color: $semiBrown;
+
+      &:after {
+        background-color: $mainBrown;
+      }
+    }
+  }
+}
+
+.blog-post-img {
+  width: 100%;
+}
+
+.blog-post-title {
+  font-size: 20px;
+  font-family: $mainFont;
+  font-weight: 500;
+  color: $mainGray;
+  margin: 0 0 15px 0;
+}
+
+.blog-post-text {
+  font-family: $semiFont;
+  font-size: 14px;
+  font-weight: 300;
+  color: $mainGray;
+  line-height: 20px;
+  margin: 0 0 15px 0;
+}
+
+.blog-post-link {
+  text-decoration: none;
+  color: $semiBrown;
+  font-family: $semiFont;
+  font-size: 12px;
+}
+
+.blog-post-date {
+  display: block;
+  width: 50px;
+  height: 35px;
+  background-color: #363636;
+  text-align: center;
+  font-family: $semiFont;
+  font-size: 24px;
+  color: #fff;
+  padding-top: 4px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border: 0px solid #000000;
+  z-index: 999;
+
+  &:after {
+    display: block;
+    content: "Sep.";
+    width: 50px;
+    height: 25px;
+    background-color: #252525;
+    font-size: 14px;
+    padding-top: 4px;
+    border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -webkit-border-radius: 0px 0px 5px 5px;
+    border: 0px solid #000000;
+  }
+}
+
+.blog-content {
+  padding: 30px;
+}
+
+.img-continer {
+  position: relative;
+}
+
+.blog-butt-list {
+  @include ul-nav;
+  margin: 0 auto;
+}
+
+.blog-nav-button {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid $lightGray;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    border: 1px solid $semiBrown;
+
+    .fa-arrow-left,
+    .fa-arrow-right {
+      color: $semiBrown;
+    }
+  }
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+  font-size: 10px;
+  color: $lightGray;
+}
