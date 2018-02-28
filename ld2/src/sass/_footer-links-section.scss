@@ -1,7 +1,103 @@
 .footer-links-wrapper {
-    background-color: #191919;
+  background-color: #191919;
 }
 
 .footer-links-section {
-    padding: 110px 0 80px 0;
+  padding: 110px 0 80px 0;
+}
+
+.footer-post-text {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: $semiFont;
+  color: $mainGray;
+  line-height: 20px;
+  margin: 0;
+
+  a {
+    color: #00bff3;
+    text-decoration: none;
+  }
+}
+
+.footer-discript-text {
+  margin-bottom: 25px;
+}
+
+.company-discript-logo {
+  margin-bottom: 30px;
+}
+
+.company-discript-link {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: $semiFont;
+  text-decoration: none;
+}
+
+.footer-posts-title {
+  color: #ffffff;
+  font-family: $mainFont;
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.footer-posts-list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-posts-item {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #363636;
+  list-style: none;
+
+  &:hover {
+    .footer-post-text {
+      color: $semiBrown;
+    }
+
+    .footer-post-date {
+      color: #ffffff;
+    }
+  }
+
+  &:last-child {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+}
+
+.footer-post-date {
+  margin: 0;
+  font-family: $semiFont;
+  font-weight: 300;
+  color: #363636;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.twitter-post-text {
+  margin-bottom: 5px;
+}
+
+.footer-widget-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-widget-item {
+  list-style: none;
+  flex: 0 1 48%;
+  margin-bottom: 10px;
+}
+
+.footer-widget-img {
+  width: 100%;
+  height: auto;
 }
