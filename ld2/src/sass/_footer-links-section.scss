@@ -101,3 +101,46 @@
   width: 100%;
   height: auto;
 }
+
+.footer-wrapper {
+  background-color: #111111;
+}
+
+.footer {
+  padding: 50px 0;
+  justify-content: space-between;
+}
+
+.footer-link-list {
+  @include ul-nav;
+  font-size: 13px;
+  font-family: $semiFont;
+}
+
+.footer-list-item {
+  padding: 0 10px 0 0;
+  margin-right: 10px;
+  border-right: 1px solid $mainGray;
+
+  &:last-child {
+    padding: 0;
+    border: none;
+  }
+}
+
+.footer-list-text {
+  margin: 0;
+  color: $mainGray;
+
+  .footer-list-link {
+    color: #959595;
+  }
+}
+
+.footer-list-link {
+  color: $mainGray;
+
+  &:hover {
+    color: $semiBrown;
+  }
+}
