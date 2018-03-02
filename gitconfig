@@ -76,4 +76,21 @@ git reset --hard <hash name or tag name>
 git commit --amend -m "add new line code in last commit"
 
 
+# create and checkout to new branch
+git checkout -b <branch name>
+
+
+# branch merge 
+git merge <branch name>
+
+
+# list of remote branches
+git branch -a
+
+
+# takes changes(commits) from remote repo, but dont merge it with local branch 
+git fetch
+
+
+
 
