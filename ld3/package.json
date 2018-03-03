@@ -7,7 +7,7 @@
     "start": "gulp start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Andrew Spesh",
   "license": "ISC",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

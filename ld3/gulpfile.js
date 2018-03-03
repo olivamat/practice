@@ -1,6 +1,6 @@
 'use strict';
 
-var gulp = require('gulp');
+var gulp = require('gulp'); 
 var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var rigger = require('gulp-rigger');
@@ -42,13 +42,6 @@ gulp.task('sass', function () {
 
 });
 
-gulp.task('css', function () {
-    return gulp.src('./src/css/*.css')
-        .pipe(gulp.dest('./build/css'))
-        .pipe(browserSync.reload({stream:true}));
-
-});
-
 // gulp.task('js', function () {
 //     return gulp.src('./src/js/*.js')
 //         .pipe(concat('script.js'))
@@ -71,10 +64,6 @@ gulp.task('js', function () {
         .pipe(browserSync.reload({stream:true}));
 });
 
-gulp.task('js_dep', function () {
-    return gulp.src('./src/js_dep/*.js')
-        .pipe(gulp.dest('./build/js'));
-});
 
 gulp.task('bundleFonts', function() {
     return gulp.src('./src/fonts/**/*.*')
@@ -111,7 +100,6 @@ gulp.task('watch', function () {
     gulp.watch('./src/*.html', ['html']);
     gulp.watch('./src/html/*.html', ['html']);
     gulp.watch('./src/fonts/**/*.*', ['bundleFonts']);
-    gulp.watch('./src/js_dep/*.js', ['js_dep']);
 });
 
 gulp.task('svg', function () {
@@ -132,7 +120,7 @@ gulp.task('clean:build', function () {
 });
 
 
-gulp.task("start",["clean:build","html", "js", "sass","css","svg","bundleImg","bundleFonts", "js_dep", "webServer", "watch"]);
+gulp.task("start",["clean:build","html", "js", "sass","svg","bundleImg","bundleFonts", "webServer", "watch"]);
 
 
 
