@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.masthead {
+  margin-bottom: 100px;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  color: #555252;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.logo:first-letter {
+  color: #1abc9c;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  float: left;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.nav-item:last-child {
+  margin: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #555252;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #1abc9c;
+}
+
+.product-section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: center;
+  margin: 0 0 90px 0;
+  font-size: 48px;
+  color: #555252;
+  text-transform: uppercase;
+}
+
+.section-title::after {
+  border-bottom: 5px solid #1abc9c;
+  content: "";
+  display: block;
+  width: 165px;
+  margin: 50px auto 0 auto;
+}
+
+.product-item {
+  float: left;
+  list-style: none;
+  width: 23%;
+  margin: 0 2% 3% 0;
+}
+
+.product-item:nth-child(4n) {
+  margin: 0 0 3% 0;
+}
+
+.product-img {
+  display: block;
+}
+
+.product-title {
+  float: left;
+  width: 75%;
+  height: 40px;
+  line-height: 40px;
+  background-color: #323232;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 0 0 10px;
+}
+
+.product-card:hover > .product-title {
+  background-color: #1abc9c;
+}
+
+.product-card:hover > .product-price {
+  background-color: #7fd9c7;
+}
+
+.product-price {
+  width: 25%;
+  float: right;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #8c8c8c;
+  color: #ffffff;
+}
+
+.article-item {
+  float: left;
+  width: 32%;
+  margin-right: 2%;
+  list-style: none;
+}
+
+.article-item:nth-child(3n) {
+  margin: 0;
+}
+
+.post-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.post-title {
+  font-size: 18px;
+  color: #555252;
+  margin-bottom: 20px;
+}
+
+.post-title:after {
+  content: "";
+  display: block;
+  width: 130px;
+  border-bottom: 3px solid #4ec6ab;
+  margin-top: 10px;
+}
+
+.post-text {
+  margin-bottom: 10px;
+}
+
+.post-link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  height: 55px;
+  width: 160px;
+  background-color: #4ec6ab;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 5px;
+}
