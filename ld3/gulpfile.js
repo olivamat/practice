@@ -65,6 +65,12 @@ gulp.task('js', function () {
 });
 
 
+gulp.task ('js_dep', function(){
+    return gulp.src('./src/libs/*.js')
+    .pipe(gulp.dest('./build/js'));
+});
+
+
 gulp.task('bundleFonts', function() {
     return gulp.src('./src/fonts/**/*.*')
         .pipe(gulp.dest('./build/fonts'));
@@ -120,7 +126,7 @@ gulp.task('clean:build', function () {
 });
 
 
-gulp.task("start",["clean:build","html", "js", "sass","svg","bundleImg","bundleFonts", "webServer", "watch"]);
+gulp.task("start",["clean:build","html", "js", "js_dep", "sass","svg","bundleImg","bundleFonts", "webServer", "watch"]);
 
 
 

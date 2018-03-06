@@ -1,1 +1,17 @@
-// тут подключаем все шрифты
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/RobotoBold/RobotoBold.eot") format("eot"),
+    url("../fonts/RobotoBold/RobotoBold.ttf") format("ttf"),
+    url("../fonts/RobotoBold/RobotoBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot") format("eot"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("ttf"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+
+

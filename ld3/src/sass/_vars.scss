@@ -1,29 +1,37 @@
 
-// 1rem = 10px
-:root {
-    font-size: 62.5%;
-}
-$remWidth: 1rem;
-@function rem($n) {
-    @return $n / 10 * $remWidth;
-  }
-
 // -----------------------------------------project vars
 
-// $mainColor: ;
+$lightgreen: #00e0d0;
+$fontcolor: #ffffff;
+$bgColor: #4b3c70;
 
-// $mainFont: ;
-// $semiFont: ;
+$titleFont: "Playfair Display", serif;
+$textFont: Roboto, serif;
+$buttonFont: "Hammersmith One", serif;
 
 // -----------------------------------------grid settings
 $grid-gutter-width: 20px !default;
-$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
-$container-max-widths: (sm: 540px, md: 720px, lg: 959px, xl: 960px);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 959px,
+  xl: 960px
+);
 
+//----------------------------------------------rem settings
 
-
-
-
-
-
-
+// 1rem = 10px
+:root {
+    font-size: 62.5%;
+  }
+  $remWidth: 1rem;
+  @function rem($n) {
+    @return $n / 10 * $remWidth;
+  }

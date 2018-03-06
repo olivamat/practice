@@ -3,35 +3,11 @@
 @import "libs";
 @import "mixins";
 
-body {
-  font-size: rem(14);
-}
 
-.box {
-  background-color: aquamarine;
-  width: rem(100);
-  height: rem(100);
-}
-
-.box2 {
-  background-color: rebeccapurple;
-  width: rem(100);
-  height: rem(100);
-}
-
-
-.box3 {
-  background-color: brown;
-  width: rem(100);
-  height: rem(100);
-}
-
-
-
-
-
-
-
+// @media only screen and (min--moz-device-pixel-ratio: 2),
+//        only screen and (-o-min-device-pixel-ratio: 2/1),
+//        only screen and (-webkit-min-device-pixel-ratio: 2),
+//        only screen and (min-device-pixel-ratio: 2) {
 
 
 
