@@ -2,12 +2,7 @@
 @import "fonts";
 @import "libs";
 @import "mixins";
-
-
-// @media only screen and (min--moz-device-pixel-ratio: 2),
-//        only screen and (-o-min-device-pixel-ratio: 2/1),
-//        only screen and (-webkit-min-device-pixel-ratio: 2),
-//        only screen and (min-device-pixel-ratio: 2) {
-
+@import "./components/_common.scss";
+@import "./components/_masthead.scss";
 
 

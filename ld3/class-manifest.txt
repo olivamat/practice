@@ -1,6 +1,112 @@
-->header-section-wrapper
-    ->container
-        ->row header section
-            -> header
+
+-> about-us-wrapper
+    -> container
+        -> row about-us section
+            -> about-us__img
+            -> about-us__article
+                -> article__title title
+                -> article__discript text
+                -> article__button button
+-> video-wrapper
+    -> container
+        -> row video section
+            -> video__video-discript
+                ->video-discript__start-butt
+                -> video-discript__title
+-> services-wrapper
+    -> container
+        -> row services section
+            -> services__services-header
+                -> services-header__title title
+                ->services-header__discript text
+            -> services__services-list
+                -> services-list__services-item
+                    -> services-item__services-card
+                        ->services-card__icon
+                        ->services-card__title title
+                        ->services-card__discript text
+-> our-team-wrapper
+    -> container
+        -> row our-team section
+            -> our-team__our-team-header
+                -> our-team-header__title title
+                -> our-team-header__discript text
+            -> our-team__our-team-list
+                -> our-team-list__our-team-item
+                    ->our-team-item__our-team-card
+                        -> our-team-card__img
+                        -> our-team-card__name
+                        -> our-team-card__position
+            -> our-team-hero text
+            -> our-team-btn button
+-> our-works-wrapper
+    -> container
+        -> row our-works section
+            -> our-works__our-works-header
+                -> our-works-header__title title
+                -> our-works-header__link
+            -> our-works__our-works-list
+                -> our-works-list__our-works-item
+                    ->our-works-item__our-project
+            -> our-works__btn button
+-> quote-wrapper
+    -> container
+        -> row quote section
+            -> quote__discript text
+            -> quote__author
+            -> quote__author-position
+            -> quote__quote-list
+                ->quote-list__quote-item
+                    -> quote-item__quote-author-img
+-> contacts-wrapper
+    -> container
+        -> row contacts section
+            -> contacts__form-section
+                ->form-section__contact-form
+                    -> contact-form__title title 
+                    -> contact-form__input
+                    -> contact-form__textarea
+                    -> contact-form__btn button
+            -> contacts__our-clients-section
+                -> our-clients-section__title title
+                -> our-clients-section__clients-list
+                    ->clients-list__clients-list-item
+                        -> clients-list-item__client
+-> footer-wrapper
+    -> container
+        -> row footer section
+            -> footer__footer-about-us
+                ->footer-about-us__logo
+                -> footer-about-us__discript text
+            -> footer__footer-contacts
+                -> footer-contacts__title
+                -> footer-contacts__adress
+                -> footer-contacts__phone
+            -> footer__subscribe-section
+                -> subscribe-section__title
+                -> subscribe-section__subscribe-form
+                    -> subscribe-form__input
+                    -> subscribe-form__btn
+                -> subscribe-section__socials-list
+                    -> socials-list__socials-item
+                       ->socials-item__social-card__icon
+            -> footer__copyright-section
+                -> copyright-section__footer-liks-list
+                    ->footer-liks-list__liks-list-item
+                        -> liks-list-item__link
+                -> copyright-section__copyright
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     

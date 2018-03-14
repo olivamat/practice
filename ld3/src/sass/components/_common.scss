@@ -1,0 +1,30 @@
+.section {
+  padding: rem(70) 0;
+}
+
+.text {
+  font-family: $textFont;
+  line-height: 1.6;
+  font-size: rem(14);
+  font-weight: 200;
+  color: #413d4b;
+}
+
+.link-button {
+  display: block;
+  height: rem(40);
+  width: rem(120);
+  background-color: transparent;
+  border: 1px solid #4ec6ab;
+  border-radius: rem(2);
+  line-height: rem(40);
+  color: #4ec6ab;
+  font-family: $buttonFont;
+  text-decoration: none;
+  font-size: rem(14);
+
+  &:hover {
+    text-decoration: none;
+    color: purple;
+  }
+}
