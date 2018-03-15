@@ -1,12 +1,4 @@
 
--> about-us-wrapper
-    -> container
-        -> row about-us section
-            -> about-us__img
-            -> about-us__article
-                -> article__title title
-                -> article__discript text
-                -> article__button button
 -> video-wrapper
     -> container
         -> row video section

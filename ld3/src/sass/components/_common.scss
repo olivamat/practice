@@ -2,12 +2,20 @@
   padding: rem(70) 0;
 }
 
+.title {
+  margin: 0;
+  font-family: $titleFont;
+  font-size: rem(22);
+  color: #413d4b;
+}
+
 .text {
   font-family: $textFont;
   line-height: 1.6;
   font-size: rem(14);
   font-weight: 200;
   color: #413d4b;
+  margin: 0;
 }
 
 .link-button {
@@ -15,13 +23,15 @@
   height: rem(40);
   width: rem(120);
   background-color: transparent;
-  border: 1px solid #4ec6ab;
+  border: rem(1) solid #4ec6ab;
   border-radius: rem(2);
   line-height: rem(40);
   color: #4ec6ab;
   font-family: $buttonFont;
   text-decoration: none;
   font-size: rem(14);
+  text-align: center;
+  text-transform: uppercase;
 
   &:hover {
     text-decoration: none;

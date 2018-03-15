@@ -1,0 +1,29 @@
+.video-wrapper {
+  background: linear-gradient(
+      to right,
+      rgba(9, 5, 47, 0.85) 0%,
+      rgba(49, 29, 94, 0.85) 100%
+    ),
+    url("../img/videoBG.jpg") center/cover no-repeat;
+  height: rem(550);
+}
+
+
+
+
+.video-discript__start-butt {
+    background: transparent;
+    border: rem(2) solid white;
+    width: rem(100);
+    height: rem(100);
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.video_butt_icon {
+    fill: #413d4b;
+    width: 80px;
+    height: 80px;
+}
