@@ -1,10 +1,4 @@
 
--> video-wrapper
-    -> container
-        -> row video section
-            -> video__video-discript
-                ->video-discript__start-butt
-                -> video-discript__title
 -> services-wrapper
     -> container
         -> row services section
@@ -15,7 +9,7 @@
                 -> services-list__services-item
                     -> services-item__services-card
                         ->services-card__icon
-                        ->services-card__title title
+                        ->services-card__title 
                         ->services-card__discript text
 -> our-team-wrapper
     -> container

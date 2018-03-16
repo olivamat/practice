@@ -8,22 +8,39 @@
   height: rem(550);
 }
 
+.video {
+  height: rem(550);
+  align-items: center;
+  justify-content: center;
+}
 
-
+.video__video-discript {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .video-discript__start-butt {
-    background: transparent;
-    border: rem(2) solid white;
-    width: rem(100);
-    height: rem(100);
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    padding: 0;
+  background: transparent;
+  border: rem(2) solid white;
+  width: rem(100);
+  height: rem(100);
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 0 rem(30) 0;
 }
 
 .video_butt_icon {
-    fill: #413d4b;
-    width: 80px;
-    height: 80px;
+  fill: #fff;
+  width: rem(80);
+  height: rem(80);
+}
+
+.video-discript__title {
+  color: white;
+  font-size: rem(16);
+  display: block;
 }
