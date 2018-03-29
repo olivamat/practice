@@ -1,0 +1,52 @@
+.our-works {
+  max-width: rem(1600);
+  margin: 0 auto;
+}
+
+.our-works-header-wrapper {
+  margin-bottom: rem(70);
+}
+.our-works-header {
+  text-align: center;
+}
+
+.our-works-header__link {
+  text-decoration: none;
+  color: #413d4b;
+  font-size: rem(14);
+  align-self: baseline;
+
+
+  &:hover {
+    color: #413d4b;
+    text-decoration: none;
+  }
+}
+
+.our-works__our-works-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: rem(70);
+
+  li {
+    list-style: none;
+  }
+}
+
+.our-works-item__our-project {
+  display: block;
+}
+
+.our-works__btn {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .our-works-header {
+      display: flex;
+      justify-content: space-between
+  }
+}

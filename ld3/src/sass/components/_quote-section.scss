@@ -1,0 +1,103 @@
+.quote-wrapper {
+  background: linear-gradient(
+      to right,
+      rgba(9, 5, 47, 0.85) 0%,
+      rgba(49, 29, 94, 0.85) 100%
+    ),
+    url("../img/quteBG.jpg") center/cover no-repeat;
+}
+
+.quote {
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote__quote-discript-container {
+  margin-bottom: rem(60);
+  text-align: center;
+}
+
+.fa-quote-left {
+  font-size: rem(60);
+  color: white;
+  margin-bottom: rem(35);
+}
+
+.quote-discript-container__discript {
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  font-size: rem(16);
+  font-family: $titleFont;
+  line-height: 1.8;
+}
+
+.quote__author {
+  font-size: rem(18);
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: rem(5);
+  font-family: $textFont;
+}
+
+.quote__author-position {
+  color: #ffffff;
+  font-size: rem(13);
+  font-weight: 300;
+  margin-bottom: rem(40);
+  font-family: $textFont;
+}
+
+.quote__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-item__quote-author-img {
+  width: 100%;
+  height: auto;
+}
+
+.quote__quote-list {
+  margin: 0;
+  padding: 0;
+}
+
+.quote-list__quote-item {
+  list-style: none;
+  display: inline-block;
+  width: rem(45);
+  height: rem(45);
+  margin-right: rem(10);
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:nth-child(3) {
+    width: rem(70);
+    height: rem(70);
+  }
+}
+
+.quote__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.quote__btn-right {
+  margin-left: rem(30);
+}
+
+.quote__btn-left {
+  margin-right: rem(30);
+}
+
+.fa-angle-left,
+.fa-angle-right {
+  font-size: rem(40);
+  color: #9f9f9f;
+}
