@@ -1,0 +1,97 @@
+.contacts {
+  justify-content: center;
+}
+.contacts__form-section {
+  text-align: center;
+  margin-bottom: rem(50);
+}
+
+.form-section__title {
+  margin-bottom: rem(30);
+}
+
+.contact-form__input {
+  width: 100%;
+  height: rem(45);
+  border: rem(1) solid #e5e5e5;
+  margin-bottom: rem(23);
+  padding: 0 0 0 rem(20);
+  outline: none;
+  color: #413d4b;
+  font-size: rem(14);
+  font-family: $textFont;
+  font-weight: 100;
+}
+
+.contact-form__textarea {
+  width: 100%;
+  height: rem(200);
+  border: rem(1) solid #e5e5e5;
+  margin-bottom: rem(23);
+  padding: rem(20) 0 0 rem(20);
+  outline: none;
+  color: #413d4b;
+  font-size: rem(14);
+  font-family: $textFont;
+  font-weight: 100;
+}
+
+.contact-form__sub-btn {
+  width: rem(120);
+  height: rem(40);
+  background: transparent;
+  border: rem(1) solid $lightgreen;
+  border-radius: rem(2);
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+  color: $lightgreen;
+  font-size: rem(16);
+  font-weight: 600;
+  font-family: $buttonFont;
+}
+.contacts__our-clients-section {
+  text-align: center;
+}
+
+.our-clients-section__title {
+  margin-bottom: rem(30);
+}
+
+.our-clients-section__clients-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients-list__clients-list-item {
+  list-style: none;
+  margin-bottom: rem(50);
+}
+
+@media screen and (min-width: 768px) {
+  .contacts__form-section {
+    margin-bottom: 0;
+  }
+
+  .our-clients-section__clients-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .clients-list__clients-list-item {
+    flex: 0 0 45%;
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contacts__our-clients-section {
+    padding-left: rem(90);
+  }
+}
