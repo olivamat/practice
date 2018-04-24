@@ -7,4 +7,5 @@ let globalVar = {};
 })(globalVar);
 
 globalVar.sayHello();
+
 // Hello

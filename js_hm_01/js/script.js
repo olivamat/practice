@@ -37,47 +37,97 @@
 // если таковая будет найдена. Проверяем до тех пор, пока не проверим все 3 воможные группы.
 
 // Если мест нигде нет, выводим alert с сообщением 'Извините, мест нет.'
-let tours = {
-  sharm: {
-    total: 15,
-    free: 15,
-    booked: 0
-  },
+// let tours = {
+//   sharm: {
+//     total: 15,
+//     free: 15,
+//     booked: 0
+//   },
 
-  hurgada: {
-    total: 25,
-    free: 25,
-    booked: 0
-  },
+//   hurgada: {
+//     total: 25,
+//     free: 25,
+//     booked: 0
+//   },
 
-  taba: {
-    total: 6,
-    free: 6,
-    booked: 0
-  }
-};
+//   taba: {
+//     total: 6,
+//     free: 6,
+//     booked: 0
+//   }
+// };
 
+// let places = prompt("Введите количество мест?", 1);
+// let counter = 0;
+
+// if (isNaN(places) === true) {
+//   alert("Ошибка ввода");
+// } else if (places % 1 === 0 && places > 0) {
+//   for (let place in tours) {
+//     ++counter;
+
+//     if (tours[place].free >= places) {
+//       let toConfirm = confirm(
+//         `Есть свободные места в группе ${place}, вы хотите присоединиться?`
+//       );
+//       if (toConfirm === true) {
+//         alert(`Приятного путешествия в группе ${place}`);
+//         tours[place].free = tours[place].free - places.length;
+//         break;
+//       }
+//       else {
+//         alert("Нам очень жаль, приходите еще!");
+//         break;
+//       }
+//     }
+//     console.log(counter);
+
+//     if (Object.keys(tours).length === counter) {
+//       alert("Извините, мест нет!");
+//     }
+//   }
+// } else {
+//   alert("Ошибка ввода");
+// }
+
+let sharm = 15;
+let hurgada = 25;
+let taba = 6;
 let places = prompt("Введите количество мест?", 1);
 
 if (isNaN(places) === true) {
   alert("Ошибка ввода");
 } else if (places % 1 === 0 && places > 0) {
-  for (let place in tours) {
-    if (tours[place].free >= places) {
-      let toConfirm = confirm(
-        `Есть свободные места в группе ${place}, вы хотите присоединиться?`
-      );
-      if (toConfirm === true) {
-        alert(`Приятного путешествия в группе ${place}`);
-        tours[place].free = tours[place].free - places.length;
-        break;
-      } else {
-        alert("Нам очень жаль, приходите еще!");
-        break;
-      }
+  if (places <= taba) {
+    let toConfirm = confirm(
+      `Есть свободные места в группе taba, вы хотите присоединиться?`
+    );
+    if (toConfirm === true) {
+      alert(`Приятного путешествия в группе taba`);
+    } else {
+      alert("Нам очень жаль, приходите еще!");
     }
+  } else if (places <= sharm) {
+    let toConfirm = confirm(
+      `Есть свободные места в группе sharm, вы хотите присоединиться?`
+    );
+    if (toConfirm === true) {
+      alert(`Приятного путешествия в группе sharm`);
+    } else {
+      alert("Нам очень жаль, приходите еще!");
+    }
+  } else if (places <= hurgada) {
+    let toConfirm = confirm(
+      `Есть свободные места в группе hurgada, вы хотите присоединиться?`
+    );
+    if (toConfirm === true) {
+      alert(`Приятного путешествия в группе hurgada`);
+    } else {
+      alert("Нам очень жаль, приходите еще!");
+    }
+  } else {
+    alert("Извините, мест нет!");
   }
-
 } else {
   alert("Ошибка ввода");
 }
