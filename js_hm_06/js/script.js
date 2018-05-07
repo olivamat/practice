@@ -13,6 +13,10 @@ class Hamburger {
       this.stuffing.push(topping);
     }
   }
+
+  removeTopping(topping) {
+    return (this.stuffing = this.stuffing.filter(el => el !== topping));
+  }
 }
 
 Hamburger.SIZE_SMALL = "SIZE_SMALL";
@@ -49,5 +53,6 @@ let hamb = new Hamburger(Hamburger.SIZE_SMALL, [
 ]);
 
 hamb.addTopping(Hamburger.TOPPING_SPICE);
+hamb.removeTopping(Hamburger.TOPPING_SPICE);
 
 console.log(hamb);
