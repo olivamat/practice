@@ -17,6 +17,49 @@ class Hamburger {
   removeTopping(topping) {
     return (this.stuffing = this.stuffing.filter(el => el !== topping));
   }
+
+  getToppings() {
+    return this.stuffing.filter(el => {
+      if (el.type === "TOPPING_SPICE") {
+        return true;
+      } else if (el.type === "TOPPING_SAUCE") {
+        return true;
+      } else {
+        return false;
+      }
+    });
+  }
+
+  getSize() {
+    return this.size;
+  }
+
+  getStuffing() {
+    return this.stuffing.filter(el => {
+      if (el.type === "STUFFING_CHEESE") {
+        return true;
+      } else if (el.type === "STUFFING_SALAD") {
+        return true;
+      } else if (el.type === "STUFFING_MEAT") {
+        return true;
+      } else {
+        return false;
+      }
+    });
+  }
+
+  calculatePrice() {
+    console.log(this.stuffing);
+
+    return this.stuffing.reduce((a, b) => {
+      console.log(a.price);
+      console.log(b.price);
+      console.log(a.price + b.price);
+      
+
+      return a.price + b.price;
+    }, 0);
+  }
 }
 
 Hamburger.SIZE_SMALL = "SIZE_SMALL";
@@ -41,7 +84,7 @@ Hamburger.TOPPING_SPICE = {
   price: 10,
   calories: 0
 };
-Hamburger.SIZE_LARGE = {
+Hamburger.TOPPING_SAUCE = {
   type: "TOPPING_SAUCE",
   price: 15,
   calories: 5
@@ -53,6 +96,6 @@ let hamb = new Hamburger(Hamburger.SIZE_SMALL, [
 ]);
 
 hamb.addTopping(Hamburger.TOPPING_SPICE);
-hamb.removeTopping(Hamburger.TOPPING_SPICE);
+hamb.addTopping(Hamburger.TOPPING_SAUCE);
 
-console.log(hamb);
+console.log(hamb.calculatePrice());
