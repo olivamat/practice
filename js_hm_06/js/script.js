@@ -49,15 +49,14 @@ class Hamburger {
   }
 
   calculatePrice() {
-    console.log(this.stuffing);
-
     return this.stuffing.reduce((a, b) => {
-      console.log(a.price);
-      console.log(b.price);
-      console.log(a.price + b.price);
-      
+      return a + b.price;
+    }, 0);
+  }
 
-      return a.price + b.price;
+  calculateCalories() {
+    return this.stuffing.reduce((a, b) => {
+      return a + b.calories;
     }, 0);
   }
 }
