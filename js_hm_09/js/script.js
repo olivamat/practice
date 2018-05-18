@@ -27,11 +27,6 @@ class timerString {
 }
 
 
-
-
-console.log(timerString.getTimeString(111111));
-
-
 class Timer {
   constructor(node, timerStringCont, btnClassStart, btnClassReset, lapsClass) {
     this.container = node;
