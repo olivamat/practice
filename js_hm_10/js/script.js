@@ -92,6 +92,9 @@ const getUserById = id => {
   //   console.error(`${xhr.status}: ${xhr.responseText}`);
   // });
 
+
+
+
   fetch(`${getAllUsersUrl}${id}`)
     .then(response => {
       if (response.ok) return response.json();
