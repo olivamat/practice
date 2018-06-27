@@ -1,0 +1,38 @@
+-> footer-wrapper
+    -> container
+        -> row footer section
+            -> footer__footer-about-us
+                ->footer-about-us__logo
+                -> footer-about-us__discript text
+            -> footer__footer-contacts
+                -> footer-contacts__title
+                -> footer-contacts__adress
+                -> footer-contacts__phone
+            -> footer__subscribe-section
+                -> subscribe-section__title
+                -> subscribe-section__subscribe-form
+                    -> subscribe-form__input
+                    -> subscribe-form__btn
+                -> subscribe-section__socials-list
+                    -> socials-list__socials-item
+                       ->socials-item__social-card__icon
+            -> footer__copyright-section
+                -> copyright-section__footer-liks-list
+                    ->footer-liks-list__liks-list-item
+                        -> liks-list-item__link
+                -> copyright-section__copyright
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

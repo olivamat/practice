@@ -1,0 +1,20 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+@import "mixins";
+
+.list {
+  @extend %ul-nav;
+  font-size: 24px;
+}
+
+.block {
+  @extend %visuallyhidden;
+}
+
+
+@include firefox-message(".header");
+
+
+
+
